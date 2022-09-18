@@ -19,7 +19,7 @@ double Function1(double arg)
 // Вычисляет вторую функцию 
 double Function2(double x)
 {
-	return M_E*cos(M_PI*x/2+3*x)+1.576+pow(10, -2)*pow(x, 3*x/2)+1/175;
+	return M_E*cos(M_PI*x/2+3*x+1)+1.576+pow(10, -2)*pow(x, 3*x/2)+1/175;
 }
 
 //////////////////////////////////////////////////
